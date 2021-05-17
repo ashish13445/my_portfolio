@@ -1,0 +1,363 @@
+.flex-container {
+  display: flex;
+
+   flex-wrap: wrap;
+  
+  
+ 
+  
+}
+.item1{
+  position: relative;
+  
+   min-width: 50%; 
+  height: 660px;
+  padding: 182px 60px 0px 97px;
+}
+.item1 h1{
+  min-width: 510px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 84px;
+color: #2A3D66;
+}
+.item1 h4{
+  min-width: 246px;
+ 
+height: 38px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+
+
+/* Theme1/1 */
+
+color: #2A3D66;
+}
+.item2{
+  position: relative;
+ 
+  min-width: 50%;
+  height: 660px;
+  background-image: url('./pp.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+ 
+ 
+  
+  
+  
+  
+ 
+}
+/* img {
+  
+  height: 660px;
+  
+} */
+
+.btns{
+  display: flex;
+  
+  
+  flex-wrap: wrap;
+ 
+  
+
+}
+.btn1{
+  
+width: 40%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+margin: 10px 5px;
+color: #3667A6;
+border: 1px solid rgb(39, 121, 230);
+padding: 12px 41px;
+text-align: center;
+}
+.btn2 {
+ 
+
+width: 40%;
+
+text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+/* 
+color: #F8F8F8; */
+
+margin: 10px 5px;
+color: white;
+border: 1px solid rgb(39, 121, 230);
+padding: 12px 30px;
+background-color: #3667A6;
+
+
+
+}
+
+
+  
+.about {
+  
+ 
+  /* background-color: #2A3D66; */
+padding: 80px;
+
+display: flex;
+
+
+font-family: Roboto;
+flex-wrap: wrap;
+padding-left: 97px;
+justify-content: space-between;
+
+
+/* Theme1/1 */
+
+
+
+}
+.about h1 {
+  width: 474px;
+}
+.about p {
+  width: 522px;
+}
+.btn3 {
+  margin: 40px 0px;
+  border: 1px solid white;
+  width: 30%;
+  text-align: center;
+
+}
+.experience {
+  display: flex;
+  align-items: center;
+  padding-left: 97px;
+  padding: 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: Roboto;
+}
+.experience p {
+  width: 522px
+}
+
+.Skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  
+  padding: 80px 80px 80px 97px;
+}
+.projects {
+  background: #E5E5E5;
+  color: #2A3D66;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  
+  padding: 40px;
+}
+
+.progress-bar {
+  max-width: 100%;
+  background-color:rgb(39, 121, 230);
+  margin-left: 40px;
+   
+}
+
+.first {
+  width: 0;
+  animation: progress-one 2.5s ease-in-out forwards;
+ 
+  
+
+}
+
+.second {
+  width: 0;
+  animation: progress-two 2.5s ease-in-out forwards;
+
+}
+
+.third {
+  width: 0;
+  animation: progress-three 2.5s ease-in-out forwards;
+
+}
+
+.fourth {
+  width: 0;
+  animation: progress-four 2.5s ease-in-out forwards;
+
+}
+
+.fifth {
+  width: 0;
+  animation: progress-five 2.5s ease-in-out forwards;
+
+}
+
+.sixth {
+  width: 0;
+  animation: progress-six 2.5s ease-in-out forwards;
+
+}
+
+@keyframes progress-one {
+  from {
+      width: 0;
+
+  }
+  to {
+      width: 80%;
+  }
+}
+
+@keyframes progress-two {
+from {
+    width: 0;
+
+}
+to {
+    width: 80%;
+}
+}
+
+@keyframes progress-three {
+from {
+    width: 0;
+
+}
+to {
+    width: 70%;
+}
+}
+
+@keyframes progress-four {
+from {
+    width: 0;
+
+}
+to {
+    width: 90%;
+}
+}
+
+@keyframes progress-five {
+from {
+    width: 0;
+
+}
+to {
+    width: 80%;
+}
+}
+
+@keyframes progress-six {
+from {
+    width: 0;
+
+}
+to {
+    width: 80%;
+}
+}
+
+
+
+
+
+.btn1:hover{
+  transform: scale(1.01)
+}
+.btn2:hover{
+  transform: scale(1.01)
+}
+.btn3:hover{
+  transform: scale(1.01)
+}
+a:hover {
+  transform: scale(1.01);
+}
+
+  
+  
+  
+  
+  @media screen and (max-width: 1200px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  
+  .btns {
+    flex-direction: column;
+  }
+  .about {
+    flex-direction: column;
+    
+    min-width: 666px;
+  
+    
+    
+  }
+  .btn1 {
+    width: 80%;
+    
+  }
+  .btn2 {
+    width: 80%;
+  }
+  .btn3 {
+    width: 60%;
+    height: auto;
+    
+  }
+  .experience {
+    min-width: 666px;
+  }
+  .Skills {
+    min-width: 666px;
+    
+  }
+  .projects {
+    min-width: 666px;
+  }
+  .projects1 {
+    flex-direction: column;
+  }
+
+  
+  
+  
+  
+  }
+  
+
+  
+
+
+
+
+
